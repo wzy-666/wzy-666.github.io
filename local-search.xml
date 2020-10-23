@@ -4,11 +4,24 @@
   
   
   <entry>
-    <title>遇见彩虹</title>
-    <link href="/2020/08/17/%E9%81%87%E8%A7%81%E5%BD%A9%E8%99%B9/"/>
-    <url>/2020/08/17/%E9%81%87%E8%A7%81%E5%BD%A9%E8%99%B9/</url>
+    <title>上海</title>
+    <link href="/2020/10/01/%E4%B8%8A%E6%B5%B7/"/>
+    <url>/2020/10/01/%E4%B8%8A%E6%B5%B7/</url>
     
-    <content type="html"><![CDATA[<p>昨天<br>在森林里<br>遇见了彩虹！</p><p><img src="/image/rainbow.jpg" srcset="/img/loading.gif" alt="rainbow">  </p>]]></content>
+    <content type="html"><![CDATA[<h2 id="上海交大华为云无人车比赛"><a href="#上海交大华为云无人车比赛" class="headerlink" title="上海交大华为云无人车比赛"></a>上海交大华为云无人车比赛</h2><p>无人车在ROS环境下运行，使用激光雷达、摄像头等传感器。</p><pre><code class="hljs python"><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">'__main__'</span>:    rospy.init_node(<span class="hljs-string">'node'</span>, anonymous=<span class="hljs-literal">True</span>)    rate = rospy.Rate(rate)    <span class="hljs-comment"># 使用try...expect结构，防止程序异常停止；</span>    <span class="hljs-keyword">try</span>:        <span class="hljs-comment"># 实现ROS功能与类功能分离，便于调试；</span>        main = Class()        <span class="hljs-keyword">while</span> <span class="hljs-keyword">not</span> rospy.is_shutdown():            <span class="hljs-keyword">try</span>:                main.spin()            <span class="hljs-keyword">except</span> Exception <span class="hljs-keyword">as</span> e:                traceback.print_exc()            rate.sleep()    <span class="hljs-keyword">except</span> rospy.ROSInterruptException:        print(rospy.ROSInterruptException)</code></pre><p><img src="/image/shanghai.jpg" srcset="/img/loading.gif" alt="climber">  </p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>彩虹</title>
+    <link href="/2020/08/17/%E5%BD%A9%E8%99%B9/"/>
+    <url>/2020/08/17/%E5%BD%A9%E8%99%B9/</url>
+    
+    <content type="html"><![CDATA[<p>在森林里<br>遇见了彩虹~</p><p><img src="/image/rainbow.jpg" srcset="/img/loading.gif" alt="rainbow">  </p>]]></content>
     
     
     
@@ -18,10 +31,10 @@
   
   <entry>
     <title>登山</title>
-    <link href="/2020/08/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <url>/2020/08/13/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</url>
+    <link href="/2020/08/13/%E7%99%BB%E5%B1%B1/"/>
+    <url>/2020/08/13/%E7%99%BB%E5%B1%B1/</url>
     
-    <content type="html"><![CDATA[<p>嘻嘻~<br>本网站建于2020.8.13  </p><p><img src="/image/climber.jpg" srcset="/img/loading.gif" alt="climber">  </p>]]></content>
+    <content type="html"><![CDATA[<p>留念<br>本网站建于2020.8.13  </p><p><img src="/image/climber.jpg" srcset="/img/loading.gif" alt="climber">  </p>]]></content>
     
     
     
