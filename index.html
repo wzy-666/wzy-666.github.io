@@ -191,13 +191,13 @@
           
             
           
-          上海交大华为云无人车比赛无人车在ROS环境下运行，使用激光雷达、摄像头等传感器。
-if __name__ == '__main__':
+          上海交大华为云无人车比赛ROS节点主函数模板if __name__ == '__main__':
     rospy.init_node('node', anonymous=True)
     rate = rospy.Rate(rate)
     # 使用try...expect结构，防止程序异常停止；
     try:
-        # 实现ROS功能与
+        # 实现ROS功能与类功能分离，便于调试；
+       
         </a>
       </p>
 
