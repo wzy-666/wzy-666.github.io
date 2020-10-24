@@ -4,6 +4,32 @@
   
   
   <entry>
+    <title>使用clash无法连接到互联网的解决方法</title>
+    <link href="/2020/10/24/%E4%BD%BF%E7%94%A8clash%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E5%88%B0%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <url>/2020/10/24/%E4%BD%BF%E7%94%A8clash%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E5%88%B0%E4%BA%92%E8%81%94%E7%BD%91%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p>使用clash无法连接到互联网有多种情况  </p><ol><li><p>端口占用  </p><blockquote><p>clash端口端口被占用，导致clash内核无法启动。（clash端口占用的原因目前尚不了解）<br> 可以通过<strong>重新设置clash端口</strong>解决。</p></blockquote></li></ol><p><img src="/image/clash_cfg_safe.jpg" srcset="/img/loading.gif" alt="config">  </p><ol start="2"><li><p>时间不同</p><blockquote><p>当linux切换到windows时，系统时间会错乱。由于代理协议需要保证本地时间准确，因此时间错乱时clash将无法使用。<br> 可以通过<strong>同步时间</strong>解决  </p></blockquote></li><li><p>其他原因</p><blockquote><p>如服务器故障、“网络升级”等导致。</p></blockquote></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Github网络问题</title>
+    <link href="/2020/10/23/Github%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/"/>
+    <url>/2020/10/23/Github%E7%BD%91%E7%BB%9C%E9%97%AE%E9%A2%98/</url>
+    
+    <content type="html"><![CDATA[<p>如果Github在使用的过程中出现了443或22等错误，可以通过一下方式解决：</p><ol><li><p>设置全局代理</p> <pre><code class="hljs sh">git config --global http.proxy http://127.0.0.1:9666</code></pre></li><li><p>修改HOSTS</p><p> 前往 <a href="https://github.com/kelthuzadx/hosts" target="_blank" rel="noopener">https://github.com/kelthuzadx/hosts</a> 或 <a href="https://travis-ci.org/github/googlehosts/hosts" target="_blank" rel="noopener">https://travis-ci.org/github/googlehosts/hosts</a>  </p><p> 更新 <a href="file:///C:/Windows/System32/drivers/etc/HOSTS">file:///C:/Windows/System32/drivers/etc/HOSTS</a>  </p></li><li><p>修改./ssh/config  </p> <pre><code class="hljs txt">Host github.com  User git  Hostname ssh.github.com  PreferredAuthentications publickey  IdentityFile ~&#x2F;.ssh&#x2F;id_rsa  Port 443</code></pre></li></ol>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>上海</title>
     <link href="/2020/10/01/%E4%B8%8A%E6%B5%B7/"/>
     <url>/2020/10/01/%E4%B8%8A%E6%B5%B7/</url>
